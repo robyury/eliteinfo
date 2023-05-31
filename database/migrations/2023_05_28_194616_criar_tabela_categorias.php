@@ -36,6 +36,26 @@ return new class extends Migration
             //Subcategorias (Começam pelo ID e cada categoria, suportam 999 subcategorias.
             //Exemplo: 1001 = 1 (Processador) 001 -> (Primeira subcategoria)
 
+            //Subcategoria Processadores
+            ['cat_id' => '1001', 'cat_nome' => 'P/Intel - LGA1155'],
+            ['cat_id' => '1002', 'cat_nome' => 'P/Intel - LGA1150'],
+            ['cat_id' => '1003', 'cat_nome' => 'P/Intel - LGA1151'],
+            ['cat_id' => '1004', 'cat_nome' => 'P/Intel - LGA2011'],
+            ['cat_id' => '1005', 'cat_nome' => 'P/Intel - LGA2066'],
+            ['cat_id' => '1006', 'cat_nome' => 'P/Intel - LGA4189'],
+            ['cat_id' => '1007', 'cat_nome' => 'P/Intel - LGA1200'],
+            ['cat_id' => '1008', 'cat_nome' => 'P/Intel - LGA1700'],
+            ['cat_id' => '1009', 'cat_nome' => 'P/Intel - LGA4677'],
+            ['cat_id' => '1010', 'cat_nome' => 'P/AMD - FM1'],
+            ['cat_id' => '1011', 'cat_nome' => 'P/AMD - FM2'],
+            ['cat_id' => '1012', 'cat_nome' => 'P/AMD - FM2+'],
+            ['cat_id' => '1013', 'cat_nome' => 'P/AMD - AM1'],
+            ['cat_id' => '1014', 'cat_nome' => 'P/AMD - AM2'],
+            ['cat_id' => '1015', 'cat_nome' => 'P/AMD - AM3'],
+            ['cat_id' => '1016', 'cat_nome' => 'P/AMD - AM3+'],
+            ['cat_id' => '1017', 'cat_nome' => 'P/AMD - AM4'],
+            ['cat_id' => '1018', 'cat_nome' => 'P/AMD - AM5'],
+
             //Subcategoria Placa Mãe
             ['cat_id' => '2001', 'cat_nome' => 'Mini-ITX'],
             ['cat_id' => '2002', 'cat_nome' => 'Micro-ATX'],

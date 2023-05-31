@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('state');
             $table->timestamps();
         });
+
     }
 
     /**

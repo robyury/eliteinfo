@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 Use App\Http\Controllers\StateController;
 Use App\Http\Controllers\AddressController;
 Use App\Http\Controllers\UserUpdateController;
+Use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,7 +23,7 @@ Route::get('/', function () {
 
 
 Route::get('/products', function(){
-    return view ('products');
+    return view ('products', ['prod_list' => ProductController::GetAllProducts(), 'cat_list' => \App\Http\Controllers\CategoryController::GetAllCategories()]);
 })->name('products');
 
 Route::get('/myaccount', function(){

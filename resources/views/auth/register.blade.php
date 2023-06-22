@@ -25,7 +25,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <div class="col-md-3"></div>
+                            <div class="col-md-3 justify-content-end"></div>
                             <div class="col-md-6">
                                 <input id="email" placeholder="Endereço de E-Mail" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
@@ -36,7 +36,6 @@
                                 @enderror
                             </div>
                         </div>
-
                         <div class="row mb-3">
                             <div class="col-md-3"></div>
 

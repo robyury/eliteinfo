@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('lista_estados', function (Blueprint $table) {
-            $table->id()->autoIncrement();
+            $table->id('id_estado')->autoIncrement();
             $table->string('nome_estado');
             $table->string('uf', 2);
         });

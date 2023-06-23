@@ -14,7 +14,7 @@ class AddressController extends Controller
         {
             return -1;
         }
-        return Address::where('owner_id','=', auth()->user()->getAuthIdentifier())->leftJoin('lista_estados', 'user_adresses.state', '=', 'lista_estados.id')->get();
+        return Address::where('owner_id','=', auth()->user()->getAuthIdentifier())->leftJoin('lista_estados', 'user_adresses.state', '=', 'lista_estados.id_estado')->get();
     }
 
     public static function CreateAddress(Request $request)

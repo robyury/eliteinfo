@@ -13,6 +13,7 @@ class Product extends Model
         'cat_produto',
         'cat_fabricante',
         'nome_produto',
+        'desc_produto',
         'url_imagem',
         'total_vendas',
         'total_visitas',

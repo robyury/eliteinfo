@@ -56,7 +56,7 @@
                                                             {{$data->nome_fabricante}} {{$data->nome_produto}}
                                                         </a>
                                                     </h2>
-                                                    {{$data->cat_nome}}
+                                                    {{$data->desc_produto}}
                                                 </div>
                                                 <div class="card-footer">
                                                     R$ {{$data->valor_produto}}

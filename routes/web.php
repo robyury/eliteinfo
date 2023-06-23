@@ -26,6 +26,11 @@ Route::get('/products', function(){
     return view ('products', ['prod_list' => ProductController::GetAllProducts(), 'cat_list' => \App\Http\Controllers\CategoryController::GetAllCategories()]);
 })->name('products');
 
+Route::get('/products/{id}', function() {
+        return view ('product-detail');
+});
+
+
 Route::get('/myaccount', function(){
     if(!Auth()->User())
     {
